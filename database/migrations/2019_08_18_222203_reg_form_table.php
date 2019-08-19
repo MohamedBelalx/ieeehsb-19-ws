@@ -23,6 +23,7 @@ class RegFormTable extends Migration
             $table->string('major');
             $table->string('acyear');
             $table->string('Committee');
+            $table->string('ras-question');
             $table->text('past-vol-work');
             $table->string('why-join');
             $table->string('facebook')->nullable();

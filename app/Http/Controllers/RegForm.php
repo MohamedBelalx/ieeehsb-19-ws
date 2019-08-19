@@ -46,6 +46,7 @@ class RegForm extends Controller
             'major' => $request->major,
             'acyear' => $request->acyear[0],
             'committee' =>$request->committee[0],
+            'ras-question' => $request->ras,
             'past-vol-work' => $request->exp,
             'why-join' => $request->wjoin,
             'facebook' => $request->facebook,

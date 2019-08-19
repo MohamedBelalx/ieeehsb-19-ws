@@ -17,12 +17,12 @@
 
     <div class="container mt-3">
         <!-- Material form contact -->
-<div class="card">
+    <div class="card">
 
-<h5 class="card-header info-color white-text text-center py-4">
-    <strong>    IEEE Helwan Student Branch Volunteers Recruitment
-</strong>
-</h5>
+    <h5 class="card-header info-color white-text text-center py-4">
+        <strong>    IEEE Helwan Student Branch Volunteers Recruitment
+    </strong>
+    </h5>
 
 <!--Card content-->
 <div class="card-body px-lg-5 pt-0">
@@ -86,10 +86,29 @@
             </select>        
         </div>
          
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="materialContactFormCopy">
-            <label class="form-check-label" for="materialContactFormCopy">control</label>
-            
+        <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted">
+                    For RAS Technical Support Applicant*</small>
+        <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted">
+                    What Experience You Have In This Majors*</small>
+
+
+        <div class="form-check text-left">
+        <input type="radio" class="form-check-input" id="materialGroupExample1" name="ras" value='Control'>
+        <label class="form-check-label" for="materialGroupExample1">Control</label>
+        </div>
+
+        <div class="form-check text-left">
+        <input type="radio" class="form-check-input" id="materialGroupExample2" name="ras" value='Mechanical'>
+        <label class="form-check-label" for="materialGroupExample2">Mechanical</label>
+        </div>
+
+        <div class="form-check text-left">
+        <input type="radio" class="form-check-input" id="materialGroupExample3" name="ras" value='Both Control&Mecha'>
+        <label class="form-check-label" for="materialGroupExample3">Both</label>
+        </div>
+        <div class="form-check text-left">
+        <input type="radio" class="form-check-input" id="materialGroupExample4" name="ras" value='none' checked>
+        <label class="form-check-label" for="materialGroupExample4">None</label>
         </div>
 
         <div class="md-form">
@@ -117,12 +136,6 @@
                 <label for="materialContactFormMessage">Comments</label>
         </div>
 
-        <!-- Copy 
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="materialContactFormCopy">
-            <label class="form-check-label" for="materialContactFormCopy">Send me a copy of this message</label>
-        </div>
--->
         <!-- Send button -->
         <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
 
@@ -132,7 +145,6 @@
 </div>
 
 </div>
-<!-- Material form contact -->
     </div>
 
 

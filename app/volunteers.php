@@ -17,7 +17,8 @@ class volunteers extends Model
         'past-vol-work',
         'why-join',
         'facebook',
-        'comments'
+        'comments',
+        'ras-question'
     ];
 
 }
