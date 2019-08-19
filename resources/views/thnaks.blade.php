@@ -11,11 +11,14 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>ds,alp;</h1>
+    <div class="container-fluid reg-bg">
 
     </div>
 
+    <div class="container text-center">
+        <h1 class='text-primary'>Thanks Fro Your Time We Will Contact You Soon Stay Tuned !</h1>
+    
+    </div>
 
 
 <script src="{{ asset('js/jquery-3.4.1.min.js') }}"></script>
