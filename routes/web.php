@@ -56,3 +56,20 @@ Route::get('/articles-dashboard/{id}/destroy', 'PostsController@destroy');
 
 Route::get('/articles-dashboard/{id}/view', 'PostsController@viewPost');
 
+/* IEEE'20 volunteers recruitment */ 
+
+Route::get('/ieee-20/volunteers',[
+    'uses' => 'RegForm@index',
+    'as' => 'reg'
+]);
+
+Route::post('/ieee-20/volunteers/reg',[
+    'uses' => 'RegForm@store',
+    'as' => 'reg'
+]);
+Route::get('/ieee-20/volunteers/thanks',[
+    'uses' => 'RegForm@thanks',
+    'as' => 'thanks'
+]);
+
+/* IEEE'20 volunteers recruitment */ 

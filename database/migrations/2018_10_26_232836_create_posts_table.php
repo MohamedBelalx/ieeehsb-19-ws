@@ -22,9 +22,9 @@ class CreatePostsTable extends Migration
             $table->string('hero_image')->nullable(true);
             // $table->string('post_video')->nullable(true);
             $table->string('custom_file')->nullable(true);
-            $table->integer('user_id')->nullable()->unsigned();
-            $table->foreign('user_id')->references('id')->on('users');
-
+            $table->integer('user_id1')->nullable()->unsigned();
+           // $table->foreign('user_id')->references('id')->on('users');
+            
             $table->timestamps();
         });
     }
