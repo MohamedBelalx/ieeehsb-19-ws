@@ -81,12 +81,11 @@
                 <option value="Decoration">Decoration</option>
                 <option value="TS PES">Technical Support PES</option>
                 <option value="TS RAS">Technical Support RAS</option>
-                <option value="WIE Juniors">WIE Juniors</option>
-                <option value="WIE Extreme">WIE Extreme</option>
+                <option value="WIE">WIE</option>
             </select>        
         </div>
          
-        <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted">
+        <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted mt-3">
                     For RAS Technical Support Applicant*</small>
         <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted">
                     What Experience You Have In This Majors*</small>
@@ -113,14 +112,14 @@
 
         <div class="md-form">
             <input type="text" id="materialContactFormName1" class="form-control" name='exp' required>
-            <label for="materialContactFormName1">Have you joined any student activity before?</label>
-            <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted mb-4">
+            <label for="materialContactFormName1">Did you join any student activity before?</label>
+            <small id="materialRegisterFormPasswordHelpBlock" class="text-left form-text text-muted mb-4 mt-3">
                     If Yes Mention It`s Name And Your Role*</small>
 
         </div>
         <div class="md-form">
             <input type="text" id="materialContactFormEmail5" class="form-control" name='wjoin' required>
-            <label for="materialContactFormEmail5">Why Are You Applying For HELWAN branch ?</label>
+            <label for="materialContactFormEmail5">Why You Applying For Our branch ?</label>
         </div>
         <div class="md-form">
             <input type="text" id="materialContactFormEmail6" class="form-control" name='facebook'>
@@ -129,11 +128,15 @@
                     Optional*</small>
 
         </div>
+        <div class="md-form">
+            <input type="text" id="materialContactFormMessage1" name='comments' class="form-control" required>
+            <label for="materialContactFormMessage1">Your Skills</label>
+        </div>
 
         <!--Message-->
         <div class="md-form">
-            <input type="text" id="materialContactFormMessage" name='comments' class="form-control">
-                <label for="materialContactFormMessage">Comments</label>
+            <input type="text" id="materialContactFormMessage" class="form-control">
+            <label for="materialContactFormMessage">Comments</label>
         </div>
 
         <!-- Send button -->

@@ -50,7 +50,7 @@ class RegForm extends Controller
             'past-vol-work' => $request->exp,
             'why-join' => $request->wjoin,
             'facebook' => $request->facebook,
-            'comments' => $request->comments
+            'experince' => $request->comments
         ]);
         
         

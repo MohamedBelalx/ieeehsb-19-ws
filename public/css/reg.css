@@ -1,7 +1,32 @@
 .reg-bg
 {
-    background-image: linear-gradient(to right bottom , rgba(0,0,0,.2),rgba(0,0,0,.5)),url("../images/theme.png");
+    background-image: linear-gradient(to right bottom , rgba(0,0,0,.3),rgba(0,0,0,.6)),url("../images/theme.png");
     height: 600px;
     background-size:100% 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+@media(max-width:800px)
+{
+    .reg-bg
+    {
+        height: 300px;
+        background-attachment: scroll;
+    }
+}
+@media(max-width:900px)
+{
+    .reg-bg
+    {
+        height: 450px;
+        background-attachment: scroll;
+    }
+}
+@media(max-width:350px)
+{
+    .reg-bg
+    {
+        height: 150px;
+        background-attachment: scroll;
+    }
 }

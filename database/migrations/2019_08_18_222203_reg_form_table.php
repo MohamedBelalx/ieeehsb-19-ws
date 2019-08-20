@@ -27,7 +27,7 @@ class RegFormTable extends Migration
             $table->text('past-vol-work');
             $table->string('why-join');
             $table->string('facebook')->nullable();
-            $table->string('comments')->nullable();
+            $table->string('experince')->nullable();
             $table->timestamps();
         });
     }
